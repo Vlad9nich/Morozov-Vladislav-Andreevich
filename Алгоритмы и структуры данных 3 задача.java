@@ -12,7 +12,7 @@ class BestTravel {
     static int findBestSum(int[] distances, int citiesToVisit, int maxDistance) {
         int bestSum = -1;
         
-        // Перебор всех комбинаций из 3 городов
+       
         for (int i = 0; i < distances.length; i++) {
             for (int j = i + 1; j < distances.length; j++) {
                 for (int k = j + 1; k < distances.length; k++) {
